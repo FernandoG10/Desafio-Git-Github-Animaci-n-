@@ -92,6 +92,53 @@ body{
        background-color: #EDCB54;
        color: black;
    }
+
+   .hero .Palabras{
+       grid-column: 2/3;
+       grid-row: 4/6 ;
+       width: 300px;
+       height: 30px;
+       color: #EDCB54;
+       font-size: 30px;
+       line-height: 30px;
+       overflow: hidden;
+       
+     
+       
+  
+   }
+      .Palabras{
+          display: flex;
+      }
+      .Palabras .p{
+          text-align: center;
+          padding: 1px;
+          font-size: 30px;
+     
+      }
+           .up{
+            list-style: none;
+            padding-left: 10px;
+            font-size: 25px;
+            animation: cambiar 4s infinite;
+        }
+
+        @keyframes cambiar{
+            0%{margin-top: 0;}
+            20%{margin-top: 0;}
+
+            25% {margin-top: -30px;}
+            50%{ margin-top: -30px;}
+
+            55%{ margin-top: -60px;}
+            80%{ margin-top: -60px;}
+
+            85%{ margin-top: -30px;}
+            95%{ margin-top: -30px;}
+
+            100%{ margin-top: 0;}
+        }
+        
    
 
    /*footer*/
@@ -191,7 +238,34 @@ body{
         color: #fff;
     }
 
-    
+      /*main Slider*/
+      .container{
+        margin: auto;
+        width: 800px;
+        padding: 30px;
+      }
+
+      
+      
+     
+      
+      
+     
+      
+     
+      
+      
+     
+      
+      
+     
+      
+      
+
+        
+
+        
+
 
 
 
