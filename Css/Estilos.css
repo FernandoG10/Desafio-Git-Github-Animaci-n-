@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:ital,wght@0,100;0,300;0,900;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color:#EDCB54;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    align-items: center;
+}
+.navbar .logo{
+    height: 90px;
+    width: 90px;
+    grid-column: 2 / 3;
+}
+
+.navbar .menu{
+    grid-column: 4 /8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .menu li{
+    list-style: none;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer; 
+}
+
+.navbar .menu a:hover{
+    color: #fff;
+}
+
+.navbar .menu-bar{
+    display: none;
+}
+
+/* main */
+
+.hero{
+    height: 80vh;
+    background-image:linear-gradient(rgba(12, 12, 12, .8), rgba(12, 12, 12, .9)) ,  url(../img/28.jpg);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+   .hero .info-content{
+       grid-column: 2/3;
+       grid-row: 2/3;
+       color: #EDCB54;
+
+   }
+
+   .hero h3 {
+       font-family:'Montserrat', sans-serif;
+       font-size: 1.5em;
+       font-weight: 300;
+   }
+
+   .hero h1{
+       font-size: 3em;
+       color: #EDCB54;
+   }
+
+   .hero p{
+       font-family: 'Monteserrat', Arial, Helvetica, sans-serif;
+   }
+
+   .hero .btn{
+       font-size: 1em;
+       background: none;
+       color: #fff;
+       padding: 10px 20px;
+       border: 1px solid #EDCB54;
+       margin-top: 10px;
+   }
+
+   .hero .btn:hover{
+       background-color: #EDCB54;
+       color: black;
+   }
+   
+
+   /*footer*/
+
+  
+.footer{
+    display: grid;
+    grid-template-areas:"Contáctame" "follow-me" "social-network";
+    height: 80px;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    grid-template-areas:"Contáctame follow-me social-network";
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+    .footer .Contáctame{
+        grid-template-areas: "Contáctame";
+        display: flex;
+        justify-content: center;
+        background-color: #EDCB54;
+        padding: 26px;
+        color: #000000;
+    }
+
+    .footer .Contáctame .whats{
+        font-size: 1.5em;
+        margin-right: 20px;
+    }
+
+    .footer .follow-me{
+        grid-template-areas:"follow-me";
+        text-align: center;
+    }
+
+    .footer .social-network{
+        grid-template-areas: "social-network";
+        font-size: 1.3em;
+    }
+
+    .footer .social-network .fab{
+        margin-right: 15px;
+        color: #EDCB54;
+    }
+      
+    .footer .social-network .fab:hover{
+        color: #fff;
+
+    }
+
+    /*main cursos*/
+    
+    .hero-2{
+        height: 80vh;
+    background-image:linear-gradient(rgba(12, 12, 12, .8), rgba(12, 12, 12, .9)) ,  url(../img/17.2.jpg);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(8,1fr);
+    }
+        
+    .hero-2 .Cursos{
+       grid-column: 2/3;
+       grid-row: 1/6;
+       color: #EDCB54;
+       margin-top: 25px;
+    }
+
+    .hero-2 h1{
+        font-size: 3em;
+        color: #EDCB54;
+    }
+
+   .navbar-01{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    font-size: 25px; 
+   }
+
+   .menu01 li{
+       list-style:none;
+   }
+   a{
+       text-decoration: none;
+       color: #EDCB54;
+   }
+
+    .navbar-01 .menu01 a{
+        text-decoration: none;
+        color: #EDCB54;
+    }
+
+    .navbar-01 .menu a :hover{
+        color: #fff;
+    }
+
+    
+
+
+
+
+
+    
+
+
+
+
